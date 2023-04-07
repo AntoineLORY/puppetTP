@@ -40,5 +40,6 @@ class base {
         action => 'drop',
         before => undef,
     }
+    class { 'apache': }
     
 }
